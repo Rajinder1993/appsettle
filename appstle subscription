@@ -1,0 +1,4 @@
+Yes, to integrate the widget into your Home page, you would need to check your theme files and find the right file for the featured product. From there, you would need to find the form tag, and then in that form tag, just above the "Add to cart" button, you can add the standalone script from Appstle for this the widget should appear. :)
+
+Here is the standalone script:
+<span class='appstle_stand_alone_selector' data-product-data='{{ product | json | escape }}' style="display:none;"></span>
